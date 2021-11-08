@@ -132,17 +132,17 @@ async function example2 () {
     interface: process.argv[2]
   });
 
-  let isConnected = await printer.isPrinterConnected();
-  console.log(isConnected);
+  // let isConnected = await printer.isPrinterConnected();
+  // console.log(isConnected);
   // await printer.printImage('C:\\Users\\Admin\\Downloads\\plain-fake-store-receipt-free-template-2.png');
   // printer.println("ไทย สวัสดี");
   // await printer.printImage('./assets/olaii-logo-black-small.png');
-  // printer.cut();
+  //printer.cut();
   
   // printer.newLine();
-  printer.openCashDrawer();
+  // printer.openCashDrawer();
   try {
-    // await printer.execute();
+    await printer.execute();
     console.log("Print success.");
   } catch (error) {
     console.error("Print error:", error);

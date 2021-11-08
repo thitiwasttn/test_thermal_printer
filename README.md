@@ -89,6 +89,7 @@ print.getWidth();                                           // Get number of cha
 Network printer
 ```bash
 node examples/example.js tcp://xxx.xxx.xxx.xxx
+node examples/test.js tcp://xxx.xxx.xxx.xxx
 ```
 Pritner name via Printer module
 ```bash
